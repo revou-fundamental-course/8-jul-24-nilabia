@@ -1,1 +1,84 @@
 /*ini css*/
+
+.main-title {
+text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+flex: 1;
+padding: 12px;
+}
+
+.input-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form {
+    background-color: rgb(196, 239, 250);
+    padding: 10px;
+    border-radius: 14px; 
+    /* border radius agar bentuk form rounded */
+    border: 1px rgb(17, 64, 76);
+    
+    
+}
+
+.button {
+    height: 32px;
+    border-radius: 8px;
+}
+
+.hitung {
+    background-color: skyblue;
+    border: 1px solid rgb(9, 66, 88);
+}
+
+.reset {
+    background-color:rgb(255, 153, 153);
+    border: 1px solid rgb(107, 0, 0);
+}
+
+/* input form */
+.form-round{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5;
+    transition: 0.5;
+    outline: none;
+    border-radius: 14px;
+    border: 1px solid grey;
+}
+
+.form-round:focus{
+    border: 2px solid#555;
+}
+
+.hasil{
+    text-align: center;
+    background-color:rgb(196, 239, 250);
+    border-radius: 8px;
+    /* border radius agar bentuk kolom rounded */
+    padding: 12px;
+}
+
+hasil-bmi-detail{
+    padding: 5px;
+}
+
+/* responsive web design */
+@media only screen and (max-width: 425px){
+    main{
+        flex-direction: column;
+    }
+    .result-content {
+        display: block !important;
+    }
+}
